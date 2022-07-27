@@ -7,7 +7,7 @@ const mysql = require("mysql2");
 const connection = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "Hello123!",
+    password: "rootr00t!",
     database: "employee_db"
 });
 
@@ -86,7 +86,9 @@ const initPrompt = () => {
         }
       })
     };
+    //initPrompt();
     
+    // view all employees in the database
     const showAllEmployees = () => {
         let results = connection.query("SELECT employee.id, employee.first_name, employee.last_name, roles.title, department.dept_name, roles.salary, CONCAT(manager.first_name, ' ', manager.last_name) AS manager FROM employee LEFT JOIN roles ON employee.role_id = roles.id LEFT JOIN department ON roles.department_id = department.id LEFT JOIN employee manager ON manager.id = employee.manager_id;",
 
@@ -184,7 +186,7 @@ const initPrompt = () => {
             console.table(results)
         })
         showAllDepartments();
-        initPrompt();
+        //initPrompt();
     });
     };
 
@@ -230,7 +232,7 @@ const initPrompt = () => {
             console.table(results)
         })
         showAllRoles();
-        initPrompt();
+        //initPrompt();
     });
     };
 
@@ -302,4 +304,4 @@ const initPrompt = () => {
         showAllEmployees();
         initPrompt();
     });
-};
+    };
