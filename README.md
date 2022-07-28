@@ -17,3 +17,6 @@ https://drive.google.com/file/d/1OgawVcvonQCSwY4EJFzPXi8abMU4nxSM/view?usp=shari
 
 
 The following screenshot displays how to initiate the Employee Tracker.
+![Screen Shot 2022-07-27 at 10 05 36 PM](https://user-images.githubusercontent.com/64749332/181404804-a3670181-d0e1-45e9-834f-83cc1268f3c0.png)
+
+
