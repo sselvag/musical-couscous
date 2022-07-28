@@ -12,6 +12,7 @@
 
 
 The following link is a walkthrough video that demonstrates the functioanlity of the Employee Tracker.
+https://drive.google.com/file/d/1OgawVcvonQCSwY4EJFzPXi8abMU4nxSM/view?usp=sharing
 
 
 
